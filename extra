@@ -1,0 +1,54 @@
+Basic JavaScript
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJS-Mongo-Express)
+Third Party Api (Weather Api)
+Node-Es6(.babel)
+Redis  > 6379
+Oauth(with github)
+Github
+Login/Logout(JWT)
+MongoDb Basic >27017
+Api with NodeJS(Rest)
+DashBoard(Crud)
+Testing
+OO_NodeJs
+GraphQl API
+NodeJs with postgres
+Chatapp
+----Production----
+Nginx
+Docker
+Heroku
+Pm2
+Email With Node(sendgrid)
+
+
+-------NOT----
+UI Design (html css bootstrap react jquery)
+
+////////////////////////////////
+node is Single thread, async, non block I/O
+convert code into machine language
+
+////////////////////////
+NPM
+/////////////
+node package manager(registry)
+
+/////////
+Package.json
+/////////////
+> meta data 
+> script 
+> depedency 
+> dev
+
+////////////////////////
+Step to generate package.json
+////////////////////////////
+**NodeJs must be install in system (https://nodejs.org/en/)
+> go inside the folder using cmd/terminal
+> npm init 
+> answer all question
+> type "yes"
