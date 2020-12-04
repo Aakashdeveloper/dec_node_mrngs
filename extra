@@ -41,7 +41,7 @@ Package.json
 /////////////
 > meta data 
 > script 
-> depedency 
+> dependency 
 > dev
 
 ////////////////////////
@@ -52,3 +52,41 @@ Step to generate package.json
 > npm init 
 > answer all question
 > type "yes"
+
+
+////////////////
+Dependency
+//////////
+local  > local to the folder
+dev    > use only at the time of development
+global > installed in system and use for any app
+
+
+////////////////////////
+Step to install local dependency
+////////////////////////////
+**NodeJs must be installed in system
+> go inside the folder with cmd/terminal
+> type npm i packagename
+
+
+////////////////////////
+Step to install dev dependency
+////////////////////////////
+> go inside the folder with cmd/terminal
+> type npm i packagename --save-dev
+
+////////////////////////
+Step to install global dependency
+////////////////////////////
+**Need to have admin access
+**Will not add in the package.json
+**For CD or generate the app 
+
+#windnow
+> open cmd as admin
+> npm i -g packagename
+
+#mac/linux
+> open terminal
+> sudon npm i -g packagename
