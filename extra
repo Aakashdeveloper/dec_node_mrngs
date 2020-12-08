@@ -90,3 +90,5 @@ Step to install global dependency
 #mac/linux
 > open terminal
 > sudon npm i -g packagename
+
+npm i -g nodemon
