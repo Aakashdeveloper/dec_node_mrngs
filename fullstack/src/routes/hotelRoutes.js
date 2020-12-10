@@ -378,14 +378,21 @@ var hotels=[
     }
   ]
   
-hotelRouter.route('/')
-  .get(function(req,res){
-    res.send(hotels)
+
+function router(menu){
+  hotelRouter.route('/')
+    .get(function(req,res){
+      //res.send(hotels)
+      res.render('hotel',{title:'Hotel Page',hoteldata:hotels,menu:menu})
   });
 
-hotelRouter.route('/details')
-  .get(function(req,res){
-    res.send("Hotels details")
+  hotelRouter.route('/details')
+    .get(function(req,res){
+      res.send("Hotels details")
   });
 
-module.exports = hotelRouter
+  return hotelRouter
+}
+
+
+module.exports = router

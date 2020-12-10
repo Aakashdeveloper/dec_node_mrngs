@@ -1,8 +1,16 @@
 var express = require('express');
 var app = express();
 var port = 8900;
-var hotelRouter = require('./src/routes/hotelRoutes');
-var cityRouter = require('./src/routes/cityRoutes');
+
+var menu = [
+    {link:'/', name:'Home'},
+    {link:'/hotel', name:'Hotels'},
+    {link:'/city', name:'City'},
+    {link:'/city', name:'About'}
+]
+
+var hotelRouter = require('./src/routes/hotelRoutes')(menu);
+var cityRouter = require('./src/routes/cityRoutes')(menu);
 
 //static file path
 app.use(express.static(__dirname+'/public'));
@@ -14,7 +22,7 @@ app.set('view engine','ejs')
 
 app.get('/',function(req,res){
     //res.send('Welcome to express')
-    res.render('index',{title:'Home Page'})
+    res.render('index',{title:'Home Page',menu:menu})
 });
 
 app.use('/hotel',hotelRouter);

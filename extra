@@ -92,3 +92,41 @@ Step to install global dependency
 > sudon npm i -g packagename
 
 npm i -g nodemon
+
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+
+Sno |  Name | Hindi | English
+ 1  |  John |  90   |
+ 2  |  Kevn |       | 80
+
+
+
+ [
+     {
+         sno:1,
+         name:'John'
+         Hindi:90
+     },
+      {
+         sno:2,
+         name:'Kevn'
+         English:90
+     }
+ ]
+
+
+Mongo 
+https://www.mongodb.com/try/download/community
+
+Create folder 
+C:/data/db 
+
+mac
+> open terminal
+> mkdir data/db
