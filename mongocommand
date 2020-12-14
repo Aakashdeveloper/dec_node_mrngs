@@ -1,0 +1,36 @@
+show dbs > show all database
+
+//go inside db
+> use database name
+
+//to see all the collection
+> show collection
+
+//to see the record in the collection
+> db.collection.find() (select * from table)
+
+//for readable on the console(not to use in the application)
+> db.collection.find().pretty()
+
+each record have _id (default primary key)
+
+////Insert
+//create new db//
+>use databasename
+
+//insert in collection//
+db.extra.insert({_id:1,name:'John'})
+db.extra.insert({_id:3,name:'John',city:''})
+
+db.extra.insert([
+      {_id:4,name:'Ankit'} ,
+      {_id:5,name:'Nikita'}
+])
+
+///find with condition
+> db.colname.find(condition)
+
+db.hotels.find({_id:"1"})
+db.hotels.find({city_name:'Mumbai'})
+
+db.hotels.findOne({city_name:'Mumbai'})
