@@ -2,10 +2,11 @@ Basic JavaScript
 NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
-///////////////////////////////////////
 Third Party Api (Weather Api)
+///////////////////////////////////////
 Github
 Node-Es6(.babel)
+
 Redis  > 6379
 Oauth(with github)
 Login/Logout(JWT)
@@ -155,3 +156,9 @@ database   database
 table      collection
 row        document
 
+
+
+
+var a = 10
+var b = "my age is "+a 
+var c = `my age is ${a}`
