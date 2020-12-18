@@ -3,14 +3,14 @@ NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
+Node-Es6(.babel)
 ///////////////////////////////////////
 Github
-Node-Es6(.babel)
-
 Redis  > 6379
 Oauth(with github)
 Login/Logout(JWT)
 MongoDb Basic >27017
+
 Api with NodeJS(Rest)
 DashBoard(Crud)
 Testing
@@ -162,3 +162,5 @@ row        document
 var a = 10
 var b = "my age is "+a 
 var c = `my age is ${a}`
+
+npm i @babel/core @babel/preset-env @babel/register
