@@ -4,13 +4,12 @@ Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
 Node-Es6(.babel)
+Redis  > 6379
 ///////////////////////////////////////
 Github
-Redis  > 6379
 Oauth(with github)
 Login/Logout(JWT)
 MongoDb Basic >27017
-
 Api with NodeJS(Rest)
 DashBoard(Crud)
 Testing
@@ -164,3 +163,15 @@ var b = "my age is "+a
 var c = `my age is ${a}`
 
 npm i @babel/core @babel/preset-env @babel/register
+
+/////Redis/////
+https://github.com/dmajkic/redis/downloads
+KEYS *
+set key value
+get key
+
+setex key time value 
+
+npm i axios express redis
+
+https://en.wikipedia.org/w/api.php?action=parse&format=json&section=0&page=india
