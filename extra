@@ -5,10 +5,12 @@ NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
 Node-Es6(.babel)
 Redis  > 6379
+
 ///////////////////////////////////////
+Login/Logout(JWT)
 Github
 Oauth(with github)
-Login/Logout(JWT)
+
 MongoDb Basic >27017
 Api with NodeJS(Rest)
 DashBoard(Crud)
@@ -175,3 +177,6 @@ setex key time value
 npm i axios express redis
 
 https://en.wikipedia.org/w/api.php?action=parse&format=json&section=0&page=india
+
+
+npm i express jsonwebtoken mongoose bcryptjs body-parser cors
