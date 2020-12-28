@@ -34,3 +34,5 @@ db.hotels.find({_id:"1"})
 db.hotels.find({city_name:'Mumbai'})
 
 db.hotels.findOne({city_name:'Mumbai'})
+
+npm i cors ejs express request superagent
