@@ -1,0 +1,13 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apiwithoutui.js",
+  "scripts": {
+    "start":"node apiwithoutui.js",
+    "dev":"nodemon apiwithoutui.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

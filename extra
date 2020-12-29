@@ -181,3 +181,6 @@ https://en.wikipedia.org/w/api.php?action=parse&format=json&section=0&page=india
 npm i express jsonwebtoken mongoose bcryptjs body-parser cors
 
 
+npm i cors ejs express request superagent
+
+npm i express mongodb body-parser cors chai chai-http mocha ejs

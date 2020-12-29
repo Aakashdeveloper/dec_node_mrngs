@@ -35,4 +35,21 @@ db.hotels.find({city_name:'Mumbai'})
 
 db.hotels.findOne({city_name:'Mumbai'})
 
-npm i cors ejs express request superagent
+db.hotels.find({city:"2"}).pretty()
+db.hotes.find({city:"2"},{name:1,cost:1})
+db.hotels.find({city:"2"},{name:1,cost:1,_id:0})
+db.hotels.find({},{name:1,cost:1,_id:0})
+
+db.hotels.find({cost:{$lt:8000,$gt:5000}},{name:1})
+
+db.hotels.update({_id:"8"},
+{
+      $set:{
+            cost:4500
+      }
+})
+
+db.hotels.remove({})
+db.hotels.remove({_id:"8"})
+
+db.hotels.count()
